@@ -1,0 +1,24 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;	
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+@font-face {
+    font-family: arkitech-medium;
+    src: url(../font/arkitech/arkitech_medium.ttf);
+}
+
+@font-face {
+    font-family: arkitech-light;
+    src: url(../font/arkitech/Arkitech Light.ttf);
+}
+
+@font-face {
+    font-family: arkitech-bold;
+    src: url(../font/arkitech/Arkitech Bold.ttf);
+}
