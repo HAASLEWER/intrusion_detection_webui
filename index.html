@@ -7,6 +7,7 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <!-- App specific styles -->
       <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/index.css" media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -17,34 +18,72 @@
       <nav class="grey darken-2">
         <a href="#" style="font-family: arkitech-medium; margin-left: -41px;" class="brand-logo center"><img src="img/tet.png" style="max-height: 50px; vertical-align: middle; margin-right: 10px;" />tetrasec</a>
         <ul class="right hide-on-med-and-down grey darken-2">
-          <li><a href="#!">First Sidebar Link</a></li>
-          <li><a href="#!">Second Sidebar Link</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="#!">Events</a></li>
+          <li><a href="#!">Help</a></li>
         </ul>
         <ul id="slide-out" class="side-nav grey darken-3">
-          <li><a href="#!" style="color: white;">First Sidebar Link</a></li>
-          <li><a href="#!" style="color: white;">Second Sidebar Link</a></li>
+          <li><a href="#!" style="color: white;">Home</a></li>
+          <li><a href="#!" style="color: white;">Events</a></li>
+          <li><a href="#!" style="color: white;">Help</a></li>
         </ul>
         <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons" style="margin-left: 5px;">menu</i></a>
       </nav>
 
       <main>
+        <div class="parallax-container">
+          <div class="parallax"><img src="img/parallax.jpg"></div>
+          <div id="particles-js"></div>
+        </div>
 
+        <div class="container icon-container">
+          <div class="section">
+            <div class="row">
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <h2 class="center brown-text"><i class="material-icons">https</i></h2>
+                  <h5 class="center">Automize Security Monitoring</h5>
+
+                  <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <h2 class="center brown-text"><i class="material-icons">fingerprint</i></h2>
+                  <h5 class="center">Identify Threats in Real Time</h5>
+
+                  <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                </div>
+              </div>
+
+              <div class="col s12 m4">
+                <div class="icon-block">
+                  <h2 class="center brown-text"><i class="material-icons">speaker_phone</i></h2>
+                  <h5 class="center">Immediate Threat Notifications</h5>
+
+                  <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+             
       </main>
 
       <footer class="page-footer grey darken-3">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <a href="#" style="font-family: arkitech-medium; font-size: 30px; color: #ffffff;" class="brand-logo center"><img src="img/tet.png" style="max-height: 50px; vertical-align: middle; margin-right: 10px;" />tetrasec</a>
+              <p class="grey-text text-lighten-4"></p>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Links</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Events</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Help</a></li>
               </ul>
             </div>
           </div>
@@ -52,7 +91,6 @@
         <div class="footer-copyright">
           <div class="container">
           © 2016 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
           </div>
         </div>
       </footer>      
@@ -60,6 +98,8 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/particles.min.js"></script>
+      <script type="text/javascript" src="js/particlesjs-config.json"></script>
 
       <script type="text/javascript" src="js/index.js"></script>
     </body>

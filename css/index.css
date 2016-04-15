@@ -1,0 +1,11 @@
+.icon-container {
+	text-align: justify;
+}
+
+.icon-container .material-icons {
+    font-size: 3.56rem;
+}
+
+.icon-block {
+	padding: 0 1rem;
+}
