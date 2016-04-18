@@ -1,0 +1,103 @@
+.blue {
+  background-color: #92dbf0;
+}
+
+.red-secondary {
+  background-color: red;
+}
+
+.image-container img {
+  display: inline-block;
+  height: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#image_modal {
+  width: 600px !important;
+}
+
+.dynamic_modal_image {
+  height: 400px;
+  border: 1px solid #fff;
+}
+
+#timeline_info .info {
+  background-color: #333;
+  background-color: rgba(0,0,0,0.75);
+  position: absolute;
+  top: 50px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 11;
+  padding: 15px;
+  color: #eee;
+  font-weight: bold;
+  font-size: 16px;
+}
+#timeline_info.cue0 .info0 {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  left: 50px;
+}
+#timeline_info.cue1 .info1 {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  left: 80px;
+}
+#timeline_info.cue2 .info2 {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  left: 110px;
+}
+#timeline_info.cue3 .info3 {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  left: 140px;
+}
+#timeline_info.cue4 .info4 {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  left: 170px;
+}
+#timeline_info.cue5 .info5 {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  left: 200px;
+}
+#timeline_info.cue6 .info6 {
+  opacity: 1;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  left: 230px;
+}
+
+.fp-cuepoint {
+  width: 5px;
+  height: 100%;
+  background-color: #92dbf0;
+  position: absolute;
+  z-index: 999;
+}
+
+.fp-volume {
+  display: none;
+}
+
+.fp-brand {
+  display: none;
+}
+
+.flowplayer .fp-timeline {
+  margin: 0 55px 0 55px;
+}
+
+.flowplayer .fp-remaining, .flowplayer .fp-duration {
+  right: 10px;
+  bottom: 10px !important;
+}
