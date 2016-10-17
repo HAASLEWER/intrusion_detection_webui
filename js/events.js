@@ -30,15 +30,13 @@ function changeImage(img) {
 function createEventList(items) {
 	var ul = '<ul class="collection">';
 	items.forEach(function(item, index) {
-console.log(item);
-$('.events_container').append('<img src="' + item.image + '" />');
-/*
+		var date = new Date(item.datetime).toLocaleString();
 		ul += '<li class="collection-item avatar">';
         ul += '<i class="material-icons circle blue">storage</i>';
-        ul += '<span class="title">' + item.datetime + '</span>';
+        ul += '<span class="title">' + date + '</span>';
         ul += '<p>Events <br>';
         ul += '<div class="image-container">';
-        ul += '<a href="#image_modal" class="image-modal-trigger"><img src="' + item.image + '" /></a>';
+        ul += '<a href="#image_modal" class="image-modal-trigger" onClick="' + item.image + '"><img src="' + item.image + '" /></a>';
         ul += '</div></p>';
         ul += '<a href="#video_modal" class="secondary-content video-modal-trigger"><i class="material-icons">play_arrow</i></a></li>';
 
@@ -46,6 +44,5 @@ $('.events_container').append('<img src="' + item.image + '" />');
         	ul += '</ul>';
         	$('.events_container').html(ul);
         }
-*/
 	});
 }
