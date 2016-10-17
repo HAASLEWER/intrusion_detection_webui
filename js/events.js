@@ -16,7 +16,8 @@ $( document ).ready(function() {
 	        if (response.success == false) {
 	        	console.log(response);
 	        } else {
-	        	console.log(response);        	
+console.log(response);
+	       		createEventList(response.result);     	
 	        }
 	    }
 	} );
@@ -24,4 +25,27 @@ $( document ).ready(function() {
 
 function changeImage(img) {
   $(".dynamic_modal_image").attr("src", img);
+}
+
+function createEventList(items) {
+	var ul = '<ul class="collection">';
+	items.forEach(function(item, index) {
+console.log(item);
+$('.events_container').append('<img src="' + item.image + '" />');
+/*
+		ul += '<li class="collection-item avatar">';
+        ul += '<i class="material-icons circle blue">storage</i>';
+        ul += '<span class="title">' + item.datetime + '</span>';
+        ul += '<p>Events <br>';
+        ul += '<div class="image-container">';
+        ul += '<a href="#image_modal" class="image-modal-trigger"><img src="' + item.image + '" /></a>';
+        ul += '</div></p>';
+        ul += '<a href="#video_modal" class="secondary-content video-modal-trigger"><i class="material-icons">play_arrow</i></a></li>';
+
+        if (index == items.length-1) {
+        	ul += '</ul>';
+        	$('.events_container').html(ul);
+        }
+*/
+	});
 }
