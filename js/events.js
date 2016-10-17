@@ -7,6 +7,19 @@ $( document ).ready(function() {
 
   // Initialize image modal
   $('.image-modal-trigger').leanModal();
+
+	jQuery.ajax( {
+	    url: 'http://' + api_host + '/events?token=' + Cookies.get('token'),
+	    type: 'GET',
+	    dataType: 'JSON',
+	    success: function(response) {
+	        if (response.success == false) {
+	        	console.log(response);
+	        } else {
+	        	console.log(response);        	
+	        }
+	    }
+	} );
 });
 
 function changeImage(img) {
