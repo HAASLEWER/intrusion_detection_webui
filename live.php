@@ -1,6 +1,8 @@
+<?php include 'partials/header_auth.php'; ?>
   <!DOCTYPE html>
   <html>
     <head>
+      <link rel="stylesheet" type="text/css" href="css/pace.css" media="screen,projection"/>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -30,23 +32,6 @@
 
     <body>
 
-      <nav class="grey darken-2">
-        <a href="#" style="font-family: arkitech-medium; margin-left: -41px;" class="brand-logo center"><img src="img/tet.png" style="max-height: 50px; vertical-align: middle; margin-right: 10px;" />tetrasec</a>
-        <ul class="right hide-on-med-and-down grey darken-2">
-          <li><a href="/">Home</a></li>
-          <li><a href="#!">Events</a></li>
-          <li><a href="#!">Help</a></li>
-        </ul>
-        <ul id="slide-out" class="side-nav grey darken-3">
-          <li><a href="#!" style="color: white;">Home</a></li>
-          <li><a href="#!" style="color: white;">Events</a></li>
-          <li><a href="#!" style="color: white;">Help</a></li>
-        </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons" style="margin-left: 5px;">menu</i></a>
-      </nav>
-
-      <main>
-
         <!-- The Canvas size specified here is the "initial" internal resolution. jsmpeg will
                 change this internal resolution to whatever the source provides. The size the
                 canvas is displayed on the website is dictated by the CSS style.
@@ -72,30 +57,10 @@
              
       </main>
 
-      <footer class="page-footer grey darken-3">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <a href="#" style="font-family: arkitech-medium; font-size: 30px; color: #ffffff;" class="brand-logo center"><img src="img/tet.png" style="max-height: 50px; vertical-align: middle; margin-right: 10px;" />tetrasec</a>
-              <p class="grey-text text-lighten-4"></p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Events</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Help</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="footer-copyright">
-          <div class="container">
-          © 2016 Tetratec (Pty) Ltd
-          </div>
-        </div>
-      </footer>      
+      <?php include 'partials/footer_auth.php'; ?>      
 
+      <script type="text/javascript" src="js/pace.min.js"></script>
+      <script type="text/javascript" src="js/js.cookie.js"></script>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
