@@ -34,7 +34,7 @@
                   <h2 class="center brown-text"><i class="material-icons">https</i></h2>
                   <h5 class="center">Automate Security Monitoring</h5>
 
-                  <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                  <p class="light">By utilizing elements and principles of Computer Vision, Tetrasec was able to create a framework that incorporates software automation and closed circuit television in a way that provides users with immediate notification on threates. Additionally, a single underlying responsive system across all platforms allows for a unified user experience.</p>
                 </div>
               </div>
 
@@ -43,7 +43,7 @@
                   <h2 class="center brown-text"><i class="material-icons">fingerprint</i></h2>
                   <h5 class="center">Identify Threats in Real Time</h5>
 
-                  <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                  <p class="light">Tetrasec allows you to check on the safety of your loved ones live, from anywhere in the world and from any device.</p>
                 </div>
               </div>
 
@@ -52,7 +52,7 @@
                   <h2 class="center brown-text"><i class="material-icons">speaker_phone</i></h2>
                   <h5 class="center">Immediate Threat Notifications</h5>
 
-                  <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                  <p class="light">Be alerted the moment a threat is identified, with personalised notifications that include images of the detected threat so that you can take action immediately.</p>
                 </div>
               </div>
             </div>

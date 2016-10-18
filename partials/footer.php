@@ -10,6 +10,7 @@
         <ul>
           <li><a class="grey-text text-lighten-3" href="/">Home</a></li>
           <li><a class="grey-text text-lighten-3" href="login.php">Login</a></li>
+          <li><a class="grey-text text-lighten-3" href="signup.php">Signup</a></li>
         </ul>
       </div>
     </div>
