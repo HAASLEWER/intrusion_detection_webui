@@ -35,29 +35,29 @@
                   <form id="signup_form" class="col s12">
                     <div class="row">
                       <div class="input-field col s6">
-                        <input id="name" type="text" class="validate" required="" aria-required="true">
+                        <input id="name" placeholder=" " type="text" class="validate" required="" aria-required="true">
                         <label for="name">Name</label>
                       </div>
                       <div class="input-field col s6">
-                        <input id="surname" type="text" class="validate" required="" aria-required="true">
+                        <input id="surname" placeholder=" " type="text" class="validate" required="" aria-required="true">
                         <label for="surname">Surname</label>
                       </div>
                     </div>
                     <div class="row">
                       <div class="input-field col s12">
-                        <input id="email" type="email" class="validate" required="" aria-required="true">
+                        <input id="email" placeholder=" " type="email" class="validate" required="" aria-required="true">
                         <label for="email">Email</label>
                       </div>
                     </div>
                     <div class="row">
                       <div class="input-field col s12">
-                        <input id="password" type="password" class="validate" required="" aria-required="true">
+                        <input id="password" placeholder=" " type="password" class="validate" required="" aria-required="true">
                         <label for="password">Password</label>
                       </div>
                     </div>
                     <div class="row">
                       <div class="input-field col s12">
-                        <input id="conf_password" type="password" class="validate" required="" aria-required="true">
+                        <input id="conf_password" placeholder=" " type="password" class="validate" required="" aria-required="true">
                         <label for="conf_password">Confirm Password</label>
                       </div>
                     </div> 
