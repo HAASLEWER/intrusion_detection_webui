@@ -11,7 +11,7 @@
           <li><a class="grey-text text-lighten-3" href="/">Home</a></li>
           <li><a class="grey-text text-lighten-3" href="live.php">Live Stream</a></li>
           <li><a class="grey-text text-lighten-3" href="events.php">Events</a></li>
-          <li><a class="grey-text text-lighten-3" href="help.php">Help</a></li>
+          <li><a class="grey-text text-lighten-3" href="settings.php">Settings</a></li>
         </ul>
       </div>
     </div>

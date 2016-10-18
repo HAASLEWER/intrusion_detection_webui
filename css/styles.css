@@ -8,6 +8,10 @@ main {
 	flex: 1 0 auto;
 }
 
+.side-nav a {
+    color: #2196F3;
+}
+
 @font-face {
     font-family: arkitech-medium;
     src: url(../font/arkitech/arkitech_medium.ttf);

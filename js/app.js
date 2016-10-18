@@ -11,7 +11,8 @@ $(document).ready(function() {
 
 function checkToken() {	
 	var location = window.location;
-	var token = Cookies.get('token')
+	var token = Cookies.get('token');
+	var user_id = Cookies.get('user_id')
 
 	if (location.pathname == '/login.php') {
 		return;

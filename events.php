@@ -24,7 +24,7 @@
       <main>
         <br />
         <div class="container">
-          <div class="events_container"></div>
+          <div class="events_container">You have no events</div>
 
           <div id="image_modal" class="modal">
             <div class="modal-content">

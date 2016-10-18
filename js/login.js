@@ -10,7 +10,8 @@ $(function() {
 		        	$('#login-error').show();
 		        	$('#login-error-msg').html(response.message);
 		        } else {
-		        	Cookies.set('token', response.token);		        	
+		        	Cookies.set('token', response.token);	
+		        	Cookies.set('user_id', response.user_id);	        	
 					window.location = "events.php";	        	
 		        }
 		    }
