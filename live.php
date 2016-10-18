@@ -47,8 +47,8 @@
                         <a href="http://www.mozilla.com/firefox/">Firefox</a>,
                         <a href="http://www.apple.com/safari/">Safari</a> or Internet Explorer 10
                 </p>
-        </canvas>
   </div>
+        </canvas>
         <script type="text/javascript" src="js/jsmpg.js"></script>
         <script type="text/javascript">
                 // Setup the WebSocket connection and start the player
