@@ -82,12 +82,12 @@
           <div class="section"></div>
 
           <div class="container">
-            <div class="z-depth-1 grey lighten-4 row" style="width: 428.5px; display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+            <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
               <a href="#" style="font-family: arkitech-medium; margin-left: -41px;" class="brand-logo center"><img src="img/tet.png" style="max-height: 50px; vertical-align: middle; margin-right: 10px;">tetrasec</a>
                 <div class="row">
                   <form id="cam_form" class="col s12">
                     <div class="row">
-                      <div class="input-field col s12">
+                      <div class="input-field col s12 m12 l12">
                         <input id="camera" placeholder=" " type="text" class="validate" required="" aria-required="true">
                         <label for="camera">Camera ID</label>
                       </div>
