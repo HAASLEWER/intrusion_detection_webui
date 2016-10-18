@@ -31,7 +31,7 @@
 
           <div id="image_modal" class="modal">
             <div class="modal-content">
-              <img src="img/test1.png" class="dynamic_modal_image" />
+              <img id="image-modal-src" src="img/test1.png" class="dynamic_modal_image" />
             </div>  
             <div class="modal-footer">
               <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>

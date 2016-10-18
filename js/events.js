@@ -16,7 +16,6 @@ $( document ).ready(function() {
 	        if (response.success == false) {
 	        	console.log(response);
 	        } else {
-console.log(response);
 	       		createEventList(response.result);     	
 	        }
 	    }
@@ -36,13 +35,18 @@ function createEventList(items) {
         ul += '<span class="title">' + date + '</span>';
         ul += '<p>Events <br>';
         ul += '<div class="image-container">';
-        ul += '<a href="#image_modal" class="image-modal-trigger" onClick="' + item.image + '"><img src="' + item.image + '" /></a>';
+        ul += '<a href="#image_modal" class="image-modal-trigger" onclick="addImage(\'' + item.image + '\')" data_image_path="' + item.image + '" ><img src="' + item.image + '" /></a>';
         ul += '</div></p>';
         ul += '<a href="#video_modal" class="secondary-content video-modal-trigger"><i class="material-icons">play_arrow</i></a></li>';
 
         if (index == items.length-1) {
         	ul += '</ul>';
         	$('.events_container').html(ul);
+        	$('.image-modal-trigger').leanModal();
         }
 	});
+}
+
+function addImage(image) {	
+	$('#image-modal-src').attr("src", image);
 }
