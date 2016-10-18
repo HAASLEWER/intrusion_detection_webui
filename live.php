@@ -10,6 +10,8 @@
       <!-- App specific styles -->
       <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen,projection"/>
 
+      <link rel="stylesheet" type="text/css" href="css/live.css" media="screen,projection"/>
+
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Live Stream</title>
@@ -37,7 +39,8 @@
                 canvas is displayed on the website is dictated by the CSS style.
         -->
 	<br />
-        <canvas id="videoCanvas" width="640" height="480">
+  <div class="video-container">
+        <canvas id="videoCanvas">
                 <p>
                         Please use a browser that supports the Canvas Element, like
                         <a href="http://www.google.com/chrome">Chrome</a>,
@@ -45,6 +48,7 @@
                         <a href="http://www.apple.com/safari/">Safari</a> or Internet Explorer 10
                 </p>
         </canvas>
+  </div>
         <script type="text/javascript" src="js/jsmpg.js"></script>
         <script type="text/javascript">
                 // Setup the WebSocket connection and start the player
