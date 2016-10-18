@@ -45,7 +45,7 @@ function createEventList(items) {
         ul += '<span class="title">' + date + '</span>';
         ul += '<p>Video <br>';
         ul += '<div class="image-container">';
-        ul += '<a href="#video_modal" class="video-modal-trigger" onclick="addVideo(\'' + item.video + '\')" data_image_path="' + item.video + '" ><img src="' + item.video + '" /></a>';
+        ul += '<a href="#video_modal" class="video-modal-trigger" onclick="addVideo(\'' + item.video + '\')" data_image_path="' + item.video + '" ><img src="//lh3.ggpht.com/OOXV4V9YyovafA10xZhq0QgWNwFwCEhMI9kWJ2FDkjMmLa7rDWJmSmnsgOtMWdDGg3A=w300" /></a>';
         ul += '</div></p>';
         ul += '</li>';
     }
