@@ -29,24 +29,40 @@ function changeImage(img) {
 function createEventList(items) {
 	var ul = '<ul class="collection">';
 	items.forEach(function(item, index) {
-		var date = new Date(item.datetime).toLocaleString();
-		ul += '<li class="collection-item avatar">';
+    var date = new Date(item.datetime).toLocaleString();
+    if (item.image) {
+        ul += '<li class="collection-item avatar">';
         ul += '<i class="material-icons circle blue">storage</i>';
         ul += '<span class="title">' + date + '</span>';
-        ul += '<p>Events <br>';
+        ul += '<p>Event <br>';
         ul += '<div class="image-container">';
         ul += '<a href="#image_modal" class="image-modal-trigger" onclick="addImage(\'' + item.image + '\')" data_image_path="' + item.image + '" ><img src="' + item.image + '" /></a>';
         ul += '</div></p>';
-        ul += '<a href="#video_modal" class="secondary-content video-modal-trigger"><i class="material-icons">play_arrow</i></a></li>';
+        ul += '</li>';
+    } else {
+        ul += '<li class="collection-item avatar">';
+        ul += '<i class="material-icons circle blue">storage</i>';
+        ul += '<span class="title">' + date + '</span>';
+        ul += '<p>Video <br>';
+        ul += '<div class="image-container">';
+        ul += '<a href="#video_modal" class="video-modal-trigger" onclick="addVideo(\'' + item.video + '\')" data_image_path="' + item.video + '" ><img src="' + item.video + '" /></a>';
+        ul += '</div></p>';
+        ul += '</li>';
+    }
 
-        if (index == items.length-1) {
-        	ul += '</ul>';
-        	$('.events_container').html(ul);
-        	$('.image-modal-trigger').leanModal();
-        }
+    if (index == items.length-1) {
+      ul += '</ul>';
+      $('.events_container').html(ul);
+      $('.image-modal-trigger').leanModal();
+      $('.video-modal-trigger').leanModal();
+    }      
 	});
 }
 
 function addImage(image) {	
 	$('#image-modal-src').attr("src", image);
+}
+
+function addVideo(video) {  
+  $('#video-modal-src').attr("src", video);
 }

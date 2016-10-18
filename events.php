@@ -35,6 +35,18 @@
             </div>
           </div>  
 
+          <div id="video_modal" class="modal">
+            <div class="modal-content">
+              <video id="video" height="400" controls>
+                <source id="video-modal-src" src="videos/events4.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>  
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>           
+
         </div>    
       </main>
 
