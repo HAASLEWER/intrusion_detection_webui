@@ -66,5 +66,5 @@ function addImage(image) {
 function addVideo(video) {  
 console.log(video);  
   $('#video-modal-src').attr("src", video);
-  $("#video video")[0].load();
+  $("#video")[0].load();
 }
